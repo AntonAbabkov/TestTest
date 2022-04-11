@@ -1,0 +1,1418 @@
+@media (max-width: 1100px) {
+    .container {
+        width: 980px;
+    }
+    .header
+        .header_nav_right_block {
+            margin-left: 110px;
+        }
+    .home
+        .main {
+            padding: 40px 10px 10px 15px;
+        }
+        .main
+            .main__search {
+                width: 150px;
+            }
+        .main
+            .main__search-select {
+                width: 130px;
+            }
+        .main
+            .main__search-input-txt {
+                width: 130px;
+            }
+        .main
+            .main__search-input-int-wrapper {
+                width: 120px;
+            }
+            .main__submit
+                .main__submit-btn {
+                    width: 160px;
+                }
+        .search 
+            .search__wrapper {
+                padding: 20px 5px 20px 5px;
+            }
+        .PersonalGallery
+            .PersonalGallery__photos-gallery-img-wrapper {
+                width: 124px;
+                height: 151px;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-card {
+                grid-template-columns: 189px 265px 158px;
+            }
+        .PersonalArea 
+            .PersonalArea__questionnaire-gallery {
+                width: 673px;
+                grid-template-columns: repeat(5, 126.6px);
+                grid-template-rows: 141px 33px;
+                gap: 10px;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-gallery-img-wrapper {
+                width: 127px;
+                height: 141px;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-info {
+                width: 652px;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-add {
+                width: 100%;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-comments-card {
+                width: 673px;
+            }
+        .mess
+            .mess__RightCol-mesWindow {
+                width: 92%;
+                padding: 20px 20px 20px 15px;
+            }
+        .mess
+            .mess_rightCol-textWindow {
+                width: 98%;
+            }
+        .mess 
+            .mess_rightCol-textWindow-textarea {
+                width: 96%;
+                margin-top: 13px;
+            }
+        .mess
+            .mess_rightCol-textWindow-title {
+                font-size: 15px;
+                line-height: 15px;
+            }
+        .mess
+            .mess_rightCol-textWindow {
+                margin-top: 30px;
+            }
+  }
+
+
+@media (max-width: 997px) {
+    .container {
+        width: 860px;
+    }
+    .header
+        .header_nav {
+            justify-content: space-around;
+        }
+    .header
+        .header_nav_left_block {
+            margin-left: 0px;
+            justify-content: space-evenly;
+        }
+    .header
+        .header_nav_right_block {
+            margin-left: 0px;
+        }
+    .header
+        .header_nav_btns_block {
+            margin-left: 0px;
+        }
+    .home
+        .main {
+            flex-direction: column;
+            padding: 10px 10px 10px 10px;
+    }
+    .main
+        .main__search {
+            width: 100%;
+            height: 180px;
+        }
+        .main 
+            .main__submit {
+                margin-top: 0px;
+                width: 100%;
+                display: flex;
+                justify-content: end;
+            }
+        .main 
+            .main__submit-btn {
+                width: 200px;
+                margin-right: 37px;
+            }
+    .main
+        .main__search-wrapper {
+            padding: 5px 10px 5px 10px;
+            height: 120px;
+            flex-wrap: wrap;
+            justify-content: normal;
+        }
+    .main 
+        .main__search-input-label-mt20 {
+            margin: 10px 0px 10px 0px;
+        }
+    .main 
+        .main__search-input-txt {
+            width: 200px;
+            padding: 5px 7px 5px 7px;
+            height: 66px;
+        }
+    .main 
+        .main__ads {
+            margin-top: 30px;
+        }
+    .search 
+        .search__ads-img-wrapper {
+            width: 85px;
+            height: 103px;
+        }
+    .search 
+        .search__form {
+            width: 152px;
+        }
+    .search 
+        .search__form-select {
+            width: 134px;
+        }
+    .search 
+        .search__form-input-int-wrapper {
+            width: 132px;
+        }
+    .search 
+        .search__form-input-checkbox {
+            grid-template-columns: 14px 112px;
+        }
+    .search
+        .search__ads {
+            width: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 339px);
+            grid-template-rows: repeat(3, 126px);
+            column-gap: 10px;
+            row-gap: 10px;
+            grid-auto-rows: minmax(122px, auto);
+        }
+    .search 
+        .search__ads-wrapper {
+            padding: 7px 10px 0px 10px;
+            background-color: var(--color-black-2);
+            width: 320px;
+            height: 120px;
+            display: grid;
+            column-gap: 10px;
+            grid-template-columns: 85px 121px 42px 41px;
+            grid-template-rows: 22px 19px 61px 18px;
+        }
+
+        .PersonalGallery
+            .PersonalGallery__photos-gallery-img-wrapper {
+                width: 107px;
+                height: 125px;
+            }
+        .PersonalArea 
+            .PersonalArea__questionnaire-card {
+                grid-template-columns: 188px 242px 96px;
+        }
+        .PersonalArea
+            .PersonalArea__questionnaire-gallery {
+                width: 588px;
+                grid-template-columns: repeat(5, 110px);
+                grid-template-rows: 133px 33px;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-gallery-img-wrapper {
+                width: 109px;
+                height: 135px;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-info {
+                width: 566px;
+            }
+        .PersonalArea
+            .PersonalArea__questionnaire-comments-card {
+                width: 588px;
+            }
+}
+
+@media (max-width: 880px) {
+    .container {
+        width: 740px;
+    }
+    .header 
+        .header_nav-link-fs {
+            display: none;
+        }
+    .header 
+        .header_nav_right_block {
+            margin-left: 0px;
+            justify-content: center;
+            /* padding-top: 6px; */
+        }
+    .main
+        .main__ads {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    .search 
+        .search__ads-img-wrapper {
+            width: 102px;
+            height: 112px;
+        }
+    .search 
+        .search__form {
+            width: 190px;
+        }
+    .search 
+        .search__form-select {
+            width: 151px;
+        }
+    .search 
+        .search__form-input-int-wrapper {
+            width: 150px;
+        }
+    .search 
+        .search__form-input-checkbox {
+            grid-template-columns: 14px 131px;
+        }
+    .search
+        .search__ads {
+            width: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 381px);
+            grid-template-rows: repeat(3, 140px);
+            column-gap: 10px;
+            row-gap: 15px;
+            grid-auto-rows: minmax(127px, auto);
+        }
+    .search 
+        .search__ads-wrapper {
+            padding: 7px 10px 7px 10px;
+            background-color: var(--color-black-2);
+            width: 362px;
+            height: 126px;
+            display: grid;
+            column-gap: 10px;
+            grid-template-columns: 102px 151px 38px 41px;
+            grid-template-rows: 22px 19px 71px 13px;
+        }
+    .PersonalGallery 
+        .PersonalGallery__photos-gallery-img-wrapper {
+            width: 130px;
+            height: 171px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card {
+            grid-template-columns: 149px 218px 95px;
+            row-gap: 10px;
+            column-gap: 20px;
+            padding: 11px 13px 10px 13px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-img-wrapper {
+            width: 150px;
+            height: 172px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-gallery {
+            width: 502px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-gallery-img-wrapper {
+            width: 92px;
+            height: 111px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-gallery {
+            grid-template-columns: repeat(5, 92px);
+            grid-template-rows: 112px 33px;
+            margin-top: 10px;
+        }
+    .PersonalArea .PersonalArea__questionnaire-info {
+        width: 481px;
+    }
+    .PersonalArea
+        .PersonalArea__questionnaire-info-title {
+            font-size: 16px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-info-text {
+            font-size: 15px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-info-block {
+            padding-bottom: 0px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card {
+            width: 511px;
+            height: 157px;
+            padding: 7px 8px 7px 8px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-img-wrapper {
+            width: 183px;
+            height: 156px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-title {
+            padding-top: 8px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-info {
+            padding-left: 10px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-text-wrapper {
+            padding: 7px 9px 7px 9px;
+            height: 75px;
+        }
+    .mess
+        .mess__wrapper {
+            padding: 20px 10px;
+        }
+    .mess
+        .mess__LeftCol {
+            width: 32%;
+        }
+    .mess
+        .mess__RightCol {
+            width: 65%;
+        }
+    .mess 
+        .mess_RightCol-userCard-img-wrapper {
+            width: 90px;
+            height: 90px;
+        }
+    .mess
+        .mess__RightCol-userCard {
+            width: 211px;
+            row-gap: 0px;
+        }
+    .mess
+        .mess__RightCol-userCard-name {
+            font-size: 15px;
+        }
+    .mess
+        .mess__RightCol-userCard-status-on-text {
+            font-size: 13px;
+        }
+    .mess
+        .mess__RightCol-userCard-status-on {
+            width: 56px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-questions-card-text {
+            font-size: 13px;
+            line-height: 13px;
+        }
+    .mess 
+        .mess__RightCol-mesWindow {
+            padding: 10px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-questions-card-avatar {
+            width: 50px;
+            height: 50px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-answers-card-avatar {
+            width: 50px;
+            height: 50px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-questions-card-wrapper {
+            width: 220px;
+        }
+    .mess   
+        .mess__RightCol-mesWindow-answers-card-text {
+            font-size: 13px;
+            line-height: 13px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-questions-card {
+            margin-top: 20px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-answers-card {
+            margin-top: 20px;
+        }
+    .mess
+        .mess_rightCol-textWindow-textarea {
+            height: 120px;
+        }
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 620px;
+    }
+    .main 
+        .main__search-wrapper {
+            padding: 5px;
+        }
+    .main 
+        .main__search-input-txt {
+            width: 140px;
+        }
+    .main 
+        .main__submit-btn {
+            margin-right: 10px;
+            width: 160px;
+        }
+    .main 
+        .main__search-input-int {
+            padding-top: 8px;
+        }
+    .main
+        .main__search-input-int-box {
+            margin-top: 0px;
+        }
+    .PersonalGallery
+        .PersonalGallery__nav-a {
+            column-gap: 0px;
+        }
+    .PersonalGallery
+        .PersonalGallery__nav-a-text {
+            font-size: 14px;
+        }
+    .PersonalArea 
+        .PersonalArea__nav-a {
+            column-gap: 0px;
+    }
+    .PersonalArea
+        .PersonalArea__nav-a-text {
+            font-size: 14px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-name {
+            font-size: 15px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-age {
+            font-size: 15px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-city {
+            font-size: 15px
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-status-off {
+            font-size: 12px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-status-on {
+            font-size: 12px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card {
+            column-gap: 10px;
+            row-gap: 6px;
+            padding: 5px 5px 4px 5px;
+            grid-template-columns: 128px 210px 66px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-img-wrapper {
+            width: 128px;
+            height: 154px;
+        }
+    .PersonalArea    
+        .PersonalArea__questionnaire-card-friend-btn {
+            height: 30px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-messeage {
+            height: 30px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-gallery {
+            grid-template-columns: repeat(5, 78px);
+            grid-template-rows: 112px 33px;
+            margin-top: 10px;
+            padding: 5px 5px 5px 5px;
+            width: 432px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-gallery-img-wrapper {
+            width: 79px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-gallery-btn-link {
+            font-size: 13px;
+        }
+    .PersonalArea
+        .PersonalArea__nav-ol {
+            grid-template-columns: 133px;
+        }
+    .PersonalArea
+        .PersonalArea__nav-a-text {
+            width: 90px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-info {
+            margin-top: 10px;
+            width: 395px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card {
+            width: 427px;
+            margin-top: 10px;
+        }
+    .PersonalArea    
+        .PersonalArea__questionnaire-comments-card-icons {
+            padding: 76px 5px 0px 5px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-info {
+            width: 325px;
+        }
+    .PersonalEditing
+        .PersonalEditing__nav-ol {
+            grid-template-columns: 133px;
+        }
+    .PersonalEditing
+        .PersonalEditing__nav-a {
+            column-gap: 0px;
+            grid-template-columns: 40px 110px;
+        }
+    .PersonalEditing
+        .PersonalEditing__nav-a-text {
+            font-size: 14px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data {
+            margin-left: 10px;
+        }
+    .mess
+        .mess__LeftCol-back {
+            width: 35px;
+            height: 35px;
+        }
+    .mess
+        .mess__RightCol {
+            padding: 0px 10px 10px 0px;
+            width: 68%;
+        }
+    .mess
+        .mess__LeftCol {
+            padding: 14px 0px 10px 10px;
+            width: 28%;
+        }
+    .mess
+        .mess__RightCol-mesWindow {
+            margin-top: 1px;
+        }
+    .mess
+        .mess__leftCol-friend-img-wrapper {
+            width: 35px;
+            height: 35px;
+            padding-top: 4px;
+        }
+    .mess
+        .mess__LeftCol-form-input {
+            font-size: 13px;;
+        }
+    .mess
+        .mess__leftCol-friend {
+            margin-bottom: 3px;
+        } 
+    .mess
+        .mess__leftCol-friend-name {
+            font-size: 14px;
+            height: 19px;
+        }
+    .mess
+        .mess__leftCol-friend-status-on-text {
+            font-size: 11px;
+        }
+    .mess
+        .mess__leftCol-friend-status-on {
+            width: 50px;
+        }
+    .mess
+        .mess__leftCol-friend-status-off-text {
+            font-size: 11px;
+        }
+    .mess
+        .mess__leftCol-friend-status-off {
+            width: 50px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-questions-card-wrapper {
+            width: 200px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-answers-card-wrapper {
+            width: 200px;
+        }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 480px;
+    }
+    .header 
+        .header_nav-link {
+            font-size: 12px;
+        }
+    .header
+        .header_nav_btns_block {
+            padding-top: 5px;
+        }
+    .main 
+        .main__search {
+            height: 285px;
+        }
+    .main
+        .main__search-wrapper {
+            height: 226px;
+        }
+    .main
+        .main__search-select {
+            width: 190px;
+        }
+    .main 
+        .main__search-input-int-wrapper {
+            width: 190px;
+        }
+    .main 
+        .main__search-input-txt {
+            width: 174px;
+        }
+    .main 
+        .main__submit {
+            justify-content: center;
+        }
+    .main 
+        .main__submit-btn {
+            width: 200px;
+            margin: 0 auto;
+        }
+    .search 
+        .search__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    .search
+        .search__form {
+            width: 98%;
+            padding: 10px 0px 10px 0px;
+            height: 255px;
+        }
+    .search
+        .search__form-wrapper {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 250px;
+        }
+    .search 
+        .search__form-select {
+            width: 130px;
+        }
+    .search 
+        .search__form-input-mt {
+            margin-top: 10px;
+        }
+    .search
+        .search__form-input-int-box {
+            margin-top: 0px;
+        }
+    .search 
+        .search__submit-btn {
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+        }
+    .search 
+        .search__ads-img-wrapper {
+            width: 102px;
+            height: 112px;
+        }
+    .search 
+        .search__form-input-int-wrapper {
+            width: 150px;
+        }
+    .search 
+        .search__form-input-checkbox {
+            grid-template-columns: 14px 131px;
+        }
+    .search
+        .search__ads {
+            margin-top: 20px;
+            width: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 381px);
+            grid-template-rows: repeat(3, 140px);
+            column-gap: 10px;
+            row-gap: 15px;
+            grid-auto-rows: minmax(127px, auto);
+        }
+    .search 
+        .search__ads-wrapper {
+            padding: 7px 10px 7px 10px;
+            background-color: var(--color-black-2);
+            width: 362px;
+            height: 126px;
+            display: grid;
+            column-gap: 10px;
+            grid-template-columns: 102px 151px 38px 41px;
+            grid-template-rows: 22px 19px 71px 13px;
+        }
+    .PersonalGallery
+        .PersonalGallery__left-col {
+            width: 30%;
+        }
+    .PersonalGallery
+        .PersonalGallery__right-col {
+            width: 65.3%;
+        }
+    .PersonalGallery
+        .PersonalGallery__photos-back-wrapper {
+            width: 33px;
+            height: 33px;
+        }
+    .PersonalGallery
+        .PersonalGallery__photos-gallery-img-wrapper {
+            width: 89px;
+            height: 111px;
+        }
+    .PersonalArea
+        .PersonalArea__left-col {
+            width: 30%;
+        }
+    .PersonalArea
+        .PersonalArea__right-col {
+            width: 68.2%;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-img-wrapper {
+            width: 98px;
+            height: 125px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card {
+            padding: 5px 5px 9px 5px;
+            column-gap: 10px;
+            row-gap: 3px;
+            grid-template-columns: 96px 148px 49px;
+            grid-template-rows: repeat(3, 17px) repeat(2, 30px);
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-name {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-city {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-age {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-status-off {
+            font-size: 11px;
+            line-height: 11px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-status-on {
+            font-size: 11px;
+            line-height: 11px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-link {
+            width: 107px;
+            height: 27px;
+            font-size: 11px;
+            line-height: 11px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-friend-btn {
+            width: 107px;
+            height: 27px;
+            font-size: 11px;
+            line-height: 11px;
+        }
+    .PersonalArea
+        #gallery-foto-4 {
+            display: none;
+        }
+    .PersonalArea
+        #gallery-foto-5 {
+            display: none;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-gallery {
+            grid-template-columns: repeat(3, 99px);
+            grid-template-rows: 116px 33px;
+            width: 317px;
+            grid-template-areas:
+            "gallery-foto-1 gallery-foto-2 gallery-foto-3"
+            ". . gallery-foto-btn";
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-gallery-img-wrapper {
+            width: 98px;
+            height: 116px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-info {
+            width: 311px;
+            padding: 10px 8px 10px 8px
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-info-text {
+            font-size: 13px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-info-title {
+            font-size: 14px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-add {
+            margin-top: 10px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card-img-wrapper {
+            width: 153px;
+            height: 117px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card-title {
+            display: none;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card-text-wrapper {
+            height: 55px;
+        } 
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card {
+            height: 118px;
+            width: 312px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-name {
+            font-size: 11px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-city {
+            font-size: 11px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card-icons {
+            padding-top: 5px;
+            flex-direction: column;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-icons-comments-int {
+            font-size: 18px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-icon-wrapper {
+            width: 30px;
+            height: 30px;
+        }
+    .PersonalEditing
+        .PersonalEditing__wrapper {
+            padding: 20px 0px 20px 0px;
+        }
+    .PersonalEditing
+        .PersonalEditing__left-col {
+            width: 30%;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-img-wrapper {
+            width: 110px;
+            height: 130px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-img-input::before {
+            font-size: 12px;
+            width: 96px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-img-input {
+            width: 112px;
+            margin-top: 10px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data {
+            width: 188px;
+        }
+    .PersonalEditing
+        .PersonalEditing__right-col {
+            width: 68.2%;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic {
+            padding: 5px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data-select {
+            font-size: 14px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data-input-date {
+            font-size: 14px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data-input::placeholder {
+            font-size: 14px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic {
+            height: auto;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardInfo {
+            margin-top: 10px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardInfo-block-title {
+            font-size: 14px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardInfo-block-txt-H133 {
+            font-size: 13px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-submit {
+            font-size: 14px;
+            width: 95px;
+            height: 30px;
+        }
+    .mess
+        .mess__LeftCol {
+            width: 33%;
+            padding: 14px 0px 10px 5px;
+        }
+    .mess 
+        .mess__RightCol {
+            padding: 0px 5px 10px 0px;
+            width: 64%;
+        }
+    .mess 
+        .mess_RightCol-userCard-img-wrapper {
+            width: 70px;
+            height: 70px;
+        }
+    .mess 
+        .mess__RightCol-userCard {
+            height: 90px;
+        }
+    .mess 
+        .mess__RightCol-userCard {
+            width: 188px;
+        }
+    .mess 
+        .mess__leftCol-friend-name {
+            font-size: 12px;
+            height: 14px;
+        }
+    .mess 
+        .mess__leftCol-friend-img-wrapper {
+            padding-top: 1px;
+        }
+    .mess
+        .mess__leftCol-friend {
+            height: 49px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-questions-card-name {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-answers-card-name {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    .mess 
+        .mess__RightCol-mesWindow-questions-card-wrapper {
+            padding: 5px 10px 5px 5px;
+            width: 180px;
+        }
+    .mess 
+        .mess__RightCol-mesWindow-answers-card-wrapper {
+            padding: 5px 10px 5px 5px;
+            width: 180px;
+        }
+    .mess 
+        .mess__RightCol-mesWindow-questions-card-text {
+            font-size: 12px;
+        }
+    .mess 
+        .mess__RightCol-mesWindow-answers-card-text {
+            font-size: 12px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-questions-card-dateOf {
+            font-size: 9px;
+        }
+    .mess
+        .mess__RightCol-mesWindow-answers-card-dateOf {
+            font-size: 9px;
+        }
+    .mess 
+        .mess__RightCol-mesWindow-questions-card-avatar {
+            width: 35px;
+            height: 35px;
+        }
+    .mess 
+        .mess__RightCol-mesWindow-answers-card-avatar {
+            width: 35px;
+            height: 35px;
+        }
+    .mess 
+        .mess_rightCol-textWindow-textarea {
+            width: 93%;
+            margin-top: 9px;
+        }
+    .mess 
+        .mess_rightCol-textWindow-title {
+            font-size: 13px;
+            line-height: 13px;
+        }
+    .mess 
+        .mess__LeftCol-form-input {
+            margin-top: 41px;
+        }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+    .main {
+        align-items: center;
+    }
+    .header 
+        .header_nav-link>span {
+            display: none;
+        } 
+            
+    .header 
+        .header_nav_item-btns {
+            width: 55px;
+        }
+    .header 
+        .header_nav_btns_block {
+            padding-top: 0px;
+        }
+    .header
+        .header_nav_item-img-wrapper {
+            width: 50px;
+            height: 50px;
+        }
+    .main 
+        .main__search-wrapper {
+            flex-wrap: nowrap;
+            height: 500px;
+        }
+    .main 
+        .main__search {
+            width: 80%;
+            height: 500px;
+        }
+    .main 
+        .main__search-input-txt {
+            height: 100px;
+        }
+    .main 
+        .main__submit-btn {
+            width: 246px;
+            margin: 0 auto;
+        }
+    .main 
+        .main__ads {
+            margin-top: 80px;
+        }
+    .main 
+        .main__ads-wrapper {
+            width: 277px;
+            height: 95px;
+            column-gap: 5px;
+            grid-template-columns: 80px 132px 54px;
+            grid-template-rows: 22px 19px 49px 13px;
+            grid-template-areas:
+            "user-foto user-name user-status"
+            "user-foto user-sity user-sity"
+            "user-foto user-ads user-messeage"
+            "messeage-time messeage-time user-messeage";
+        }
+    .main 
+        .main__ads-img-wrapper {
+            width: 80px;
+            height: 90px;
+        }
+    .main 
+        .main__ads-icon-wrapper {
+            padding: 12px 0px 13px 8px;
+        }
+    .search 
+        .search__form {
+            height: 275px;
+        }
+    .search
+        .search__ads {
+            grid-template-columns: repeat(1, 305px);
+        }
+    .search 
+        .search__ads-icon-wrapper {
+            padding: 19px 0px 13px 4px;
+        }
+    .search 
+        .search__ads-wrapper {
+            width: 285px;
+            column-gap: 5px;
+            grid-template-columns: 81px 151px 42px;
+            grid-template-areas:
+            "user-foto user-name ads-close"
+            "user-foto user-sity user-status"
+            "user-foto user-ads user-messeage"
+            "user-foto messeage-time user-messeage";
+        }
+    .search 
+        .search__ads-img-wrapper {
+            width: 81px;
+            height: 112px;
+        }
+    .PersonalGallery
+        .PersonalGallery__nav-a-text>span {
+            display: none;
+        }
+    .PersonalGallery
+        .PersonalGallery__left-col {
+            width: 18%;
+        }
+    .PersonalGallery
+        .PersonalGallery__right-col {
+            width: 66%;
+        }
+    .PersonalArea
+        .PersonalArea__nav-a-text {
+            display: none;
+        }
+    .PersonalArea
+        .PersonalArea__left-col {
+            width: 18%;
+        }
+    .PersonalArea
+        .PersonalArea__right-col {
+            width: 79%;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-img-wrapper {
+            width: 81px;
+            height: 104px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card {
+            grid-template-columns: 81px 99px 42px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-card-city>span {
+            display: none;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-friend-btn {
+            width: 85px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-link {
+            width: 85px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-status-off {
+            font-size: 9px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-card-status-on {
+            font-size: 9px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-gallery-img-wrapper {
+            width: 78px;
+            height: 97px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-gallery {
+            width: 243px;
+            grid-template-columns: repeat(3, 79px);
+            grid-template-rows: 97px 33px;
+            column-gap: 3px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-add-wrapper {
+            width: 55px;
+            height: 55px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-info {
+            width: 237px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card {
+            width: 237px;
+            height: 103px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-text-wrapper {
+            margin-top: 3px;
+            padding: 3px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card-img-wrapper {
+            width: 193px;
+            height: 101px;
+        }
+    .PersonalArea 
+        .PersonalArea__questionnaire-comments-card-icons {
+            padding-top: 0px;
+        }
+    .PersonalArea
+        .PersonalArea__questionnaire-comments-card-text {
+            font-size: 9px;
+        }
+    .PersonalEditing
+        .PersonalEditing__left-col {
+            width: 18%;
+        }
+    .PersonalEditing
+        .PersonalEditing__right-col {
+            width: 79%;
+        }
+    .PersonalEditing 
+        .PersonalEditing__nav-a-text>span {
+            display: none;
+        }
+    .PersonalEditing 
+        .PersonalEditing__form-cardBasic-data {
+            width: 122px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data-input {
+            padding: 3px 2px 0px 3px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data-input::placeholder {
+            font-size: 12px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data-input {
+            height: 20px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-data-select {
+            font-size: 10px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardBasic-img-input {
+            margin-top: 0px;
+        }
+    .PersonalEditing
+        .PersonalEditing__form-cardInfo {
+            padding: 10px 5px 10px 5px;
+        }
+    .PersonalEditing 
+        .PersonalEditing__form-cardInfo-block-title {
+            padding-bottom: 5px;
+            font-size: 12px;
+        }
+    .PersonalEditing 
+        .PersonalEditing__form-cardInfo-block-txt-H133 {
+            font-size: 11px;
+            line-height: 11px;
+        }
+    .mess 
+        .mess__LeftCol {
+            width: 39%;
+        }
+    .mess 
+        .mess__RightCol {
+            width: 63%;
+        }
+    .mess 
+        .mess_RightCol-userCard-img-wrapper {
+            width: 50px;
+            height: 50px;
+        }
+    .mess   
+        .mess__RightCol-userCard-name {
+            font-size: 13px;
+            height: 18px;
+            padding-right: 3px;
+        }
+    .mess
+        .mess__RightCol-userCard-status-on-text {
+            font-size: 9px;
+        }
+    .mess
+        .mess__RightCol-userCard-status-off-text {
+            font-size: 9px;
+        }
+    .mess 
+        .mess__RightCol-userCard-status-on {
+            width: 45px;
+    }
+    .mess 
+        .mess__RightCol-userCard-status-off {
+            width: 45px;
+    }
+    .mess 
+        .mess__RightCol-userCard {
+            width: 138px;
+    }
+    .mess 
+        .mess__LeftCol-form-input {
+            font-size: 9px;
+            height: 33px;
+            width: 65px;
+        }
+    .mess 
+        .mess__leftCol-friend-img-wrapper {
+            width: 25px;
+            height: 25px;
+            padding-right: 6px;
+        }
+    .mess 
+        .mess__leftCol-friend {
+            height: 37px;
+        }
+    .mess 
+        .mess__leftCol-friend-name {
+            font-size: 11px;
+        }
+    .mess 
+        .mess__leftCol-friend-status-on-text {
+            font-size: 9px;
+        }
+    .mess 
+        .mess__leftCol-friend-status-off-text {
+            font-size: 9px;
+        }
+    .mess 
+        .mess__leftCol-friend-status-on {
+            width: 45px;
+        }
+    .mess 
+        .mess__leftCol-friend-status-off {
+            width: 45px;
+        }
+    .mess 
+        .mess_rightCol-textWindow-textarea {
+            width: 90%;
+        }
+    .mess
+        .mess_rightCol-textWindow-btns {
+            column-gap: 14px;
+        }
+    .mess
+        .mess_rightCol-textWindow-btns-submit {
+            width: 84px;
+            height: 31px;
+            font-size: 14px;
+        }
+}

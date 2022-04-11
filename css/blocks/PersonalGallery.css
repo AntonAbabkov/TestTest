@@ -1,0 +1,120 @@
+.PersonalGallery {
+    margin: 0 auto;
+    width: auto;
+}
+.PersonalGallery__wrapper {
+    padding: 35px 0px 40px 0px;
+    background-color: var(--color-black-1);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.PersonalGallery__left-col {
+    width: 25%;
+}
+
+.PersonalGallery__right-col {
+    width: 70%;
+}
+
+.PersonalGallery__menu {
+    background-color: var(--color-black-2);
+    height: 317px;
+    padding: 17px 0px 17px 10px; 
+}
+
+.PersonalGallery__nav {
+    width: 100%;
+}
+
+.PersonalGallery__nav-ol {
+    display: grid;
+    grid-template-columns: 215px;
+    grid-template-rows: repeat(5, 40px);
+    row-gap: 28px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.PersonalGallery__nav-a {
+    display: grid;
+    grid-template-columns: 40px 160px;
+    column-gap: 15px;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.PersonalGallery__nav-a-wrapper {
+    width: 35px;
+    height: 35px;  
+}
+
+.PersonalGallery__nav-a-img {
+    width: 100%;
+    height: 100%;
+    color: var(--color-orange-1);
+}
+
+.PersonalGallery__photos {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-black-2);
+    padding: 7px 11px 20px 11px;
+}
+
+.PersonalGallery__photos-back {
+    width: 100%;
+}
+
+.PersonalGallery__photos-back-wrapper {
+    width: 47px;
+    height: 47px;
+}
+
+.PersonalGallery__photos-back-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.PersonalGallery__photos-gallery {
+    /* width: 770px; */
+    display: flex;
+    row-gap: 12px;
+    column-gap: 11px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.PersonalGallery__photos-gallery-img-wrapper {
+    width: 138px;
+    height: 167px;
+}
+
+.PersonalGallery__photos-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.PersonalGallery__photos-add {
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.PersonalGallery__photos-add-input-wrapper>input {
+    display: none;
+}
+
+.PersonalGallery__photos-add-input-img {
+    cursor: pointer;
+}
+
+.PersonalGallery__photos-add-input::-webkit-file-upload-button {
+    visibility: hidden;
+    display: none;
+}
+

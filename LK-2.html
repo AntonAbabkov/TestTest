@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактирование данных</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <ul class="header_nav">
+                <div class="header_nav_left_block">
+                    <li class="header_nav_item">
+                        <a href="index.html" class="header_nav-link">главная</a>
+                    </li>
+        
+                    <li class="header_nav_item">
+                        <a href="search.html" class="header_nav-link">поиск <span>по фильтрам</span></a>
+                    </li>
+        
+                    <li class="header_nav_item">
+                        <a href="#" class="header_nav-link">помощь</a>
+                    </li>
+                </div>
+                <div class="header_nav_btns_block">
+                    <li class="header_nav_item header_nav_item-btns">
+                        <a href="#" class="header_nav-link">
+                            <img src="icons/bell.svg" alt="bell" class="header_nav-link-btn-1">
+                        </a>
+                        <a href="#" class="header_nav-link">
+                            <img src="icons/letter.svg" alt="letter" class="header_nav-link-btn-2">
+                        </a>
+                    </li>
+                </div>
+    
+                <div class="header_nav_right_block">
+                    <li class="header_nav_item header_nav_item-user">
+                        <a href="LK-1.html" class="header_nav-link-fs">никнейм/имя</a>
+                    </li>
+                    
+                    <li class="header_nav_item header_nav_item-img">
+                        <div class="header_nav_item-wrapper">
+                            <a href="LK-1.html" class="header_nav-link">
+                                <div class="header_nav_item-img-wrapper">
+                                    <img src="icons/women_in_round.svg" alt="user foto" class="header_nav-link-img">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <section class="PersonalEditing">
+        <div class="container">
+            <div class="PersonalEditing__wrapper">
+                <div class="PersonalEditing__left-col">
+                    <div class="PersonalEditing__menu">
+                        <nav class="PersonalEditing__nav">
+                            <ol class="PersonalEditing__nav-ol">
+                                <li class="PersonalEditing__nav-li">
+                                    <a href="#" class="PersonalEditing__nav-a">
+                                        <div class="PersonalEditing__nav-a-wrapper">
+                                            <img src="icons/two_people.svg" alt="Друзья" class="PersonalEditing__nav-a-img">
+                                        </div>
+                                        <div class="PersonalEditing__nav-a-text"><span>Друзья</span></div>
+                                    </a>
+                                </li>
+                                <li class="PersonalEditing__nav-li">
+                                    <a href="#" class="PersonalEditing__nav-a">
+                                        <div class="PersonalEditing__nav-a-wrapper">
+                                            <img src="icons/Page-2-Copy(orange).svg" alt="Сообщения" class="PersonalEditing__nav-a-img">
+                                        </div>
+                                        <div class="PersonalEditing__nav-a-text"><span>Сообщения</span></div>
+                                    </a>
+                                </li>
+                                <li class="PersonalEditing__nav-li">
+                                    <a href="#" class="PersonalEditing__nav-a">
+                                        <div class="PersonalEditing__nav-a-wrapper">
+                                            <img src="icons/purse.svg" alt="Мой кошелёк" class="PersonalEditing__nav-a-img">
+                                        </div>
+                                        <div class="PersonalEditing__nav-a-text"><span>Мой кошелёк</span></div>
+                                    </a>
+                                </li>
+                                <li class="PersonalEditing__nav-li">
+                                    <a href="LK-2.html" class="PersonalEditing__nav-a">
+                                        <div class="PersonalEditing__nav-a-wrapper">
+                                            <img src="icons/settings.svg" alt="Настройки" class="PersonalEditing__nav-a-img">
+                                        </div>
+                                        <div class="PersonalEditing__nav-a-text"><span>Настройки</span></div>
+                                    </a>
+                                </li>
+                                <li class="PersonalEditing__nav-li">
+                                    <a href="#" class="PersonalEditing__nav-a">
+                                        <div class="PersonalEditing__nav-a-wrapper">
+                                            <img src="icons/book.svg" alt="Дневник" class="PersonalEditing__nav-a-img">
+                                        </div>
+                                        <div class="PersonalEditing__nav-a-text"><span>Дневник</span></div>
+                                    </a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="PersonalEditing__right-col">
+                    <form action="#" class="PersonalEditing__form" enctype="multipart/form-data" method="post">
+                        <div class="PersonalEditing__form-cardBasic">
+                            <div class="PersonalEditing__form-cardBasic-img-wrapper">
+                                <img src="img/default-avatar.jpg" alt="Аватар" class="PersonalEditing__form-cardBasic-img">
+                                <input type="file" accept="jpg" class="PersonalEditing__form-cardBasic-img-input" id="img-input">
+                            </div>
+
+                            <div class="PersonalEditing__form-cardBasic-data">
+                                    <input type="text" placeholder="Имя" class="PersonalEditing__form-cardBasic-data-input">
+                                    <input type="text" placeholder="Фамилия" class="PersonalEditing__form-cardBasic-data-input">
+                                    <input type="text" placeholder="Отчество"class="PersonalEditing__form-cardBasic-data-input">
+
+                                    <input type="date" min="1900-01-01" max="2023-01-01"class="PersonalEditing__form-cardBasic-data-input-date"> <!-- Надо узнать, как изменить надпись по умолчанию с цифр на текст -->
+
+                                    <select name="choose_a_city" class="PersonalEditing__form-cardBasic-data-select" >
+                                    <option disabled selected value="0">Выберете Ваш город:</option>
+                                    <option value="1">Москва</option>
+                                    <option value="2">Санкт-Петербург</option>
+                                    <option value="3">Киев</option>
+                                    <option value="4">Улан-Удэ</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="PersonalEditing__form-cardInfo">
+                            <div class="PersonalEditing__form-cardInfo-block">
+                                <div class="PersonalEditing__form-cardInfo-block-title">Основное:</div>
+                                <textarea name="Основное" id="" rows="auto" class="PersonalEditing__form-cardInfo-block-txt-H133"></textarea>
+                            </div>
+                            <div class="PersonalEditing__form-cardInfo-block">
+                                <div class="PersonalEditing__form-cardInfo-block-title">О себе:</div>
+                                <textarea name="Основное:" id="" rows="auto" class="PersonalEditing__form-cardInfo-block-txt-H133"></textarea>
+                            </div>
+                            <div class="PersonalEditing__form-cardInfo-block">
+                                <div class="PersonalEditing__form-cardInfo-block-title">Интересы в Теме:</div>
+                                <textarea name="Основное:" id="" rows="auto" class="PersonalEditing__form-cardInfo-block-txt-H133"></textarea>
+                            </div>
+                            <div class="PersonalEditing__form-cardInfo-block">
+                                <div class="PersonalEditing__form-cardInfo-block-title">Позиционирование в Теме:</div>
+                                <textarea name="Основное:" id="" rows="auto" class="PersonalEditing__form-cardInfo-block-txt"></textarea>
+                            </div>
+                            <div class="PersonalEditing__form-cardInfo-block">
+                                <div class="PersonalEditing__form-cardInfo-block-title">Партнёром может стать:</div>
+                                <textarea name="Основное:" id="" rows="auto" class="PersonalEditing__form-cardInfo-block-txt"></textarea>
+                            </div>
+                            <div class="PersonalEditing__form-cardInfo-block">
+                                <div class="PersonalEditing__form-cardInfo-block-title">Табу:</div>
+                                <textarea name="Основное:" id="" rows="auto" class="PersonalEditing__form-cardInfo-block-txt"></textarea>
+                            </div>
+                            <div class="PersonalEditing__form-submit-wrapper">
+                                <button type="submit" class="PersonalEditing__form-submit">Сохранить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

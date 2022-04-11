@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <ul class="header_nav">
+                <div class="header_nav_left_block">
+                    <li class="header_nav_item">
+                        <a href="index.html" class="header_nav-link">главная</a>
+                    </li>
+        
+                    <li class="header_nav_item">
+                        <a href="search.html" class="header_nav-link">поиск <span>по фильтрам</span></a>
+                    </li>
+        
+                    <li class="header_nav_item">
+                        <a href="#" class="header_nav-link">помощь</a>
+                    </li>
+                </div>
+                <div class="header_nav_btns_block">
+                    <li class="header_nav_item header_nav_item-btns">
+                        <a href="#" class="header_nav-link">
+                            <img src="icons/bell.svg" alt="bell" class="header_nav-link-btn-1">
+                        </a>
+                        <a href="#" class="header_nav-link">
+                            <img src="icons/letter.svg" alt="letter" class="header_nav-link-btn-2">
+                        </a>
+                    </li>
+                </div>
+    
+                <div class="header_nav_right_block">
+                    <li class="header_nav_item header_nav_item-user">
+                        <a href="LK-1.html" class="header_nav-link-fs">никнейм/имя</a>
+                    </li>
+                    
+                    <li class="header_nav_item header_nav_item-img">
+                        <div class="header_nav_item-wrapper">
+                            <a href="LK-1.html" class="header_nav-link">
+                                <div class="header_nav_item-img-wrapper">
+                                    <img src="icons/women_in_round.svg" alt="user foto" class="header_nav-link-img">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <section class="PersonalArea">
+        <div class="container">
+            <div class="PersonalArea__wrapper">
+                <div class="PersonalArea__left-col">
+                    <div class="PersonalArea__menu">
+                        <nav class="PersonalArea__nav">
+                            <ol class="PersonalArea__nav-ol">
+                                <li class="PersonalArea__nav-li">
+                                    <a href="#" class="PersonalArea__nav-a">
+                                        <div class="PersonalArea__nav-a-wrapper">
+                                            <img src="icons/two_people.svg" alt="Друзья" class="PersonalArea__nav-a-img">
+                                        </div>
+                                        <div class="PersonalArea__nav-a-text">Друзья</div>
+                                    </a>
+                                </li>
+                                <li class="PersonalArea__nav-li">
+                                    <a href="#" class="PersonalArea__nav-a">
+                                        <div class="PersonalArea__nav-a-wrapper">
+                                            <img src="icons/Page-2-Copy(orange).svg" alt="Сообщения" class="PersonalArea__nav-a-img">
+                                        </div>
+                                        <div class="PersonalArea__nav-a-text">Сообщения</div>
+                                    </a>
+                                </li>
+                                <li class="PersonalArea__nav-li">
+                                    <a href="#" class="PersonalArea__nav-a">
+                                        <div class="PersonalArea__nav-a-wrapper">
+                                            <img src="icons/purse.svg" alt="Мой кошелёк" class="PersonalArea__nav-a-img">
+                                        </div>
+                                        <div class="PersonalArea__nav-a-text">Мой кошелёк</div>
+                                    </a>
+                                </li>
+                                <li class="PersonalArea__nav-li">
+                                    <a href="LK-2.html" class="PersonalArea__nav-a">
+                                        <div class="PersonalArea__nav-a-wrapper">
+                                            <img src="icons/settings.svg" alt="Настройки" class="PersonalArea__nav-a-img">
+                                        </div>
+                                        <div class="PersonalArea__nav-a-text">Настройки</div>
+                                    </a>
+                                </li>
+                                <li class="PersonalArea__nav-li">
+                                    <a href="#" class="PersonalArea__nav-a">
+                                        <div class="PersonalArea__nav-a-wrapper">
+                                            <img src="icons/book.svg" alt="Дневник" class="PersonalArea__nav-a-img">
+                                        </div>
+                                        <div class="PersonalArea__nav-a-text">Дневник</div>
+                                    </a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="PersonalArea__right-col">
+                    <div class="PersonalArea__questionnaire">
+                        <div class="PersonalArea__questionnaire-card">
+                            <div class="PersonalArea__questionnaire-card-img-wrapper" id="PersonalArea-user-foto">
+                                <img src="img/default-avatar.jpg" alt="avatar" class="PersonalArea__questionnaire-card-img">
+                            </div>
+                            <div class="PersonalArea__questionnaire-card-name" id="PersonalArea-user-name">ФИО\никнейм</div>
+                            <div class="PersonalArea__questionnaire-card-age" id="PersonalArea-user-age"><span>Возраст:</span> 29</div>
+                            <div class="PersonalArea__questionnaire-card-city" id="PersonalArea-user-city"><span>Город:</span> Санкт-Петербург</div>
+
+                            <div class="PersonalArea__questionnaire-card-messeage" id="PersonalArea-user-messeage">
+                                <form action="#">
+                                    <button class="PersonalArea__questionnaire-card-link" type="submit">Отправить сообщение</button>
+                                </form>
+                            </div>
+
+                            <div class="PersonalArea__questionnaire-card-friend" id="PersonalArea-user-friend">
+                                <form action="#">
+                                    <button class="PersonalArea__questionnaire-card-friend-btn" type="submit">Добавить в Друзья</button>
+                                </form>
+                            </div>
+                            <div class="PersonalArea__questionnaire-card-status" id="PersonalArea-user-status">
+                                <div class="PersonalArea__questionnaire-card-status-on">В сети</div>
+                                <div class="PersonalArea__questionnaire-card-status-off">Не в сети</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="PersonalArea__questionnaire-gallery">
+                        <div class="PersonalArea__questionnaire-gallery-img-wrapper" id="gallery-foto-1">
+                            <img src="img/Фото 1.png" alt="Фото 1" class="PersonalArea__questionnaire-gallery-img">
+                        </div>
+                        <div class="PersonalArea__questionnaire-gallery-img-wrapper" id="gallery-foto-2">
+                            <img src="img/Фото 2.png" alt="Фото 2" class="PersonalArea__questionnaire-gallery-img">
+                        </div>
+                        <div class="PersonalArea__questionnaire-gallery-img-wrapper" id="gallery-foto-3">
+                            <img src="img/Фото 3.png" alt="Фото 3" class="PersonalArea__questionnaire-gallery-img">
+                        </div>
+                        <div class="PersonalArea__questionnaire-gallery-img-wrapper" id="gallery-foto-4">
+                            <img src="img/Фото 4.png" alt="Фото 4" class="PersonalArea__questionnaire-gallery-img">
+                        </div>
+                        <div class="PersonalArea__questionnaire-gallery-img-wrapper" id="gallery-foto-5">
+                            <img src="img/Фото 5.png" alt="Фото 5" class="PersonalArea__questionnaire-gallery-img">
+                        </div>
+                        <div class="PersonalArea__questionnaire-gallery-btn" id="gallery-foto-btn">
+                            <a href="gallery.html" class="PersonalArea__questionnaire-gallery-btn-link">В галлерею</a>
+                        </div>
+                    </div>
+                    <div class="PersonalArea__questionnaire-info">
+                        <div class="PersonalArea__questionnaire-info-block">
+                            <div class="PersonalArea__questionnaire-info-title">Основное:</div>
+                            <p class="PersonalArea__questionnaire-info-text">Я доминирующая девушка, по образованию медик(специалист), выбираю себе нижнего на роль пациента.Гарантирую конфиденциальность, стерильность помещения и инструментов.Встречи до, во время и после Нового года.</p>
+                        </div>
+                        <div class="PersonalArea__questionnaire-info-block">
+                            <div class="PersonalArea__questionnaire-info-title">О себе:</div>
+                            <p class="PersonalArea__questionnaire-info-text">Очень люблю себя и не люблю: капризных, сильно страшных, нарциссов, те кто свернулся на спорте, с позиционированием не определившимися, не нуждаюсь в бытовых рабах, те кто думает что лижет лучше всех.Девушек сама ищу, не писать Мне!Жду писем от нижних мужчин.</p>
+                        </div>
+                        <div class="PersonalArea__questionnaire-info-block">
+                            <div class="PersonalArea__questionnaire-info-title">Интересы в Теме:</div>
+                            <p class="PersonalArea__questionnaire-info-text">SM, может быть немного DS.</p>
+                        </div>
+                        <div class="PersonalArea__questionnaire-info-block">
+                            <div class="PersonalArea__questionnaire-info-title">Позиционирование в Теме:</div>
+                            <p class="PersonalArea__questionnaire-info-text">Доминирование.</p>
+                        </div>
+                        <div class="PersonalArea__questionnaire-info-block">
+                            <div class="PersonalArea__questionnaire-info-title">Партнёром может стать:</div>
+                            <p class="PersonalArea__questionnaire-info-text">Парень.</p>
+                        </div>
+                        <div class="PersonalArea__questionnaire-info-block">
+                            <div class="PersonalArea__questionnaire-info-title">Табу:</div>
+                            <p class="PersonalArea__questionnaire-info-text">Кровь.</p>
+                        </div>
+                    </div>
+                    <div class="PersonalArea__questionnaire-add">
+                        <div class="PersonalArea__questionnaire-add-wrapper">
+                            <a href="#" class="PersonalArea__questionnaire-add-link" src><img src="icons/plus_in_round.svg" alt="Добавить комментарий" class="PersonalArea__questionnaire-add-img"></a>
+                        </div>
+                    </div>
+                    <div class="PersonalArea__questionnaire-comments">
+                        <div class="PersonalArea__questionnaire-comments-card">
+                            <div class="PersonalArea__questionnaire-comments-card-img-wrapper">
+                                <img src="img/default-avatar.jpg" alt="Аватар" class="PersonalArea__questionnaire-comments-card-img">
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-info">
+                                <div class="PersonalArea__questionnaire-comments-card-name">Имя Именное, 31 год
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-city">г. Москва, Россия</div>
+                                <div class="PersonalArea__questionnaire-comments-card-title">Заговок\Тема:</div>
+                                <div class="PersonalArea__questionnaire-comments-card-text-wrapper">
+                                    <div class="PersonalArea__questionnaire-comments-card-text">Интересы в теме\Табу\кого ищу\личное описание\кто может стать парнёром или просто сообщение, которое пользрователь напишет сам. </div>
+                                </div>
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-icons">
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">8</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/Page-2-Copy(orange).svg" alt="комментарии" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">141</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/like.svg" alt="лайки" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="PersonalArea__questionnaire-comments-card">
+                            <div class="PersonalArea__questionnaire-comments-card-img-wrapper">
+                                <img src="img/default-avatar.jpg" alt="Аватар" class="PersonalArea__questionnaire-comments-card-img">
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-info">
+                                <div class="PersonalArea__questionnaire-comments-card-name">Имя Именное, 31 год
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-city">г. Москва, Россия</div>
+                                <div class="PersonalArea__questionnaire-comments-card-title">Заговок\Тема:</div>
+                                <div class="PersonalArea__questionnaire-comments-card-text-wrapper">
+                                    <div class="PersonalArea__questionnaire-comments-card-text">Интересы в теме\Табу\кого ищу\личное описание\кто может стать парнёром или просто сообщение, которое пользрователь напишет сам. </div>
+                                </div>
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-icons">
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">8</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/Page-2-Copy(orange).svg" alt="комментарии" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">141</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/like.svg" alt="лайки" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="PersonalArea__questionnaire-comments-card">
+                            <div class="PersonalArea__questionnaire-comments-card-img-wrapper">
+                                <img src="img/default-avatar.jpg" alt="Аватар" class="PersonalArea__questionnaire-comments-card-img">
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-info">
+                                <div class="PersonalArea__questionnaire-comments-card-name">Имя Именное, 31 год
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-city">г. Москва, Россия</div>
+                                <div class="PersonalArea__questionnaire-comments-card-title">Заговок\Тема:</div>
+                                <div class="PersonalArea__questionnaire-comments-card-text-wrapper">
+                                    <div class="PersonalArea__questionnaire-comments-card-text">Интересы в теме\Табу\кого ищу\личное описание\кто может стать парнёром или просто сообщение, которое пользрователь напишет сам. </div>
+                                </div>
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-icons">
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">8</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/Page-2-Copy(orange).svg" alt="комментарии" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">141</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/like.svg" alt="лайки" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="PersonalArea__questionnaire-comments-card">
+                            <div class="PersonalArea__questionnaire-comments-card-img-wrapper">
+                                <img src="img/default-avatar.jpg" alt="Аватар" class="PersonalArea__questionnaire-comments-card-img">
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-info">
+                                <div class="PersonalArea__questionnaire-comments-card-name">Имя Именное, 31 год
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-city">г. Москва, Россия</div>
+                                <div class="PersonalArea__questionnaire-comments-card-title">Заговок\Тема:</div>
+                                <div class="PersonalArea__questionnaire-comments-card-text-wrapper">
+                                    <div class="PersonalArea__questionnaire-comments-card-text">Интересы в теме\Табу\кого ищу\личное описание\кто может стать парнёром или просто сообщение, которое пользрователь напишет сам. </div>
+                                </div>
+                            </div>
+                            <div class="PersonalArea__questionnaire-comments-card-icons">
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">8</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/Page-2-Copy(orange).svg" alt="комментарии" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                                <div class="PersonalArea__questionnaire-comments-card-icons-block">
+                                    <div class="PersonalArea__questionnaire-comments-card-icons-comments-int">141</div>
+                                    <div class="PersonalArea__questionnaire-comments-card-icon-wrapper"><img src="icons/like.svg" alt="лайки" class="PersonalArea__questionnaire-comments-card-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

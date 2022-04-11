@@ -1,0 +1,13 @@
+@import 'libs/_fonts.css';
+@import 'general.css';
+@import 'variables.css';
+@import 'media.css';
+
+@import 'blocks/header.css';
+@import 'blocks/home.css';
+@import 'blocks/footer.css';
+@import 'blocks/search.css';
+@import 'blocks/PersonalArea.css';
+@import 'blocks/PersonalEditing.css';
+@import 'blocks/PersonalGallery.css';
+@import 'blocks/mess.css';

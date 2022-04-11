@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <ul class="header_nav">
+                <div class="header_nav_left_block">
+                    <li class="header_nav_item">
+                        <a href="index.html" class="header_nav-link">главная</a>
+                    </li>
+        
+                    <li class="header_nav_item">
+                        <a href="search.html" class="header_nav-link">поиск <span>по фильтрам</span></a>
+                    </li>
+        
+                    <li class="header_nav_item">
+                        <a href="#" class="header_nav-link">помощь</a>
+                    </li>
+                </div>
+                <div class="header_nav_btns_block">
+                    <li class="header_nav_item header_nav_item-btns">
+                        <a href="#" class="header_nav-link">
+                            <img src="icons/bell.svg" alt="bell" class="header_nav-link-btn-1">
+                        </a>
+                        <a href="#" class="header_nav-link">
+                            <img src="icons/letter.svg" alt="letter" class="header_nav-link-btn-2">
+                        </a>
+                    </li>
+                </div>
+    
+                <div class="header_nav_right_block">
+                    <li class="header_nav_item header_nav_item-user">
+                        <a href="LK-1.html" class="header_nav-link-fs">никнейм/имя</a>
+                    </li>
+                    
+                    <li class="header_nav_item header_nav_item-img">
+                        <div class="header_nav_item-wrapper">
+                            <a href="LK-1.html" class="header_nav-link">
+                                <div class="header_nav_item-img-wrapper">
+                                    <img src="icons/women_in_round.svg" alt="user foto" class="header_nav-link-img">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </header>
+    
+
+    <section class="home">
+        <div class="container">
+            <div class="main">
+                <form class="main__search">
+                    <div class="main__search-wrapper">
+                        <div class="main__search-input">
+                            <label for="seek-1" class="main__search-input-label">Я ищу:</label>
+                            <select name="seeking-1" id="seek-1" class="main__search-select">
+                                <Option value="1">Парня</Option>
+                                <Option value="2">Девушку</Option>
+                                <Option value="3">Пару М+Ж</Option>
+                                <Option value="4">Пару Ж+Ж</Option>
+                                <Option value="5">Пару М+М</Option>
+                                <Option value="6">Группу</Option>
+                                <Option value="7">Транс\Бигендер</Option>
+                            </select>
+                        </div>
+    
+                        <div class="main__search-input">
+                            <label for="seek-2" class="main__search-input-label">Который(ая) ищет:</label>
+                            <select name="seeking-2" id="seek-2" class="main__search-select">
+                                <Option value="1">Парня</Option>
+                                <Option value="2">Девушку</Option>
+                                <Option value="3">Пару М+Ж</Option>
+                                <Option value="4">Пару Ж+Ж</Option>
+                                <Option value="5">Пару М+М</Option>
+                                <Option value="6">Группу</Option>
+                                <Option value="7">Транс\Бигендер</Option>
+                            </select>
+                        </div>
+    
+                        <div class="main__search-input">
+                            <label for="seek-3" class="main__search-input-label">Позиция в Теме:</label>
+                            <select name="seeking-3" id="seek-3" class="main__search-select">
+                                <option value="1">Доминирование</option>
+                                <option value="2">Подчинение</option>
+                                <option value="3">Свитч</option>
+                            </select>
+                        </div>
+    
+                        <div class="main__search-input-int">
+                            <label for="seek-4">Возраст:</label>
+                            <div class="main__search-input-int-wrapper">
+                                <label for="seek-4" class="main__search-input-label">от</label><input type="text" id="seek-4" class="main__search-input-int-box">
+                                <label for="seek-4" class="main__search-input-label">до</label><input type="text" id="seek-4" class="main__search-input-int-box">
+                            </div>
+                        </div>
+    
+                        <div class="main__search-input">
+                            <label for="seek-5" class="main__search-input-label-mt20">Страна:</label>
+                            <select name="seeking-5" id="seek-5" class="main__search-select">
+                                <option value="1">Любой регион</option>
+                                <option value="2">Россия</option>
+                                <option value="3">Украина</option>
+                                <option value="4">Беларусь</option>
+                                <option value="5">Казахстан</option>
+                                <option value="6">Австрия</option>
+                                <option value="7">Айзербайджан</option>
+                                <option value="8">Армения</option>
+                            </select>
+                        </div>
+    
+                        <div class="main__search-input">
+                            <label for="seek-6" class="main__search-input-label">Город:</label>
+                            <select name="seeking-6" id="seek-6" class="main__search-select">
+                                <option value="1">Москва</option>
+                                <option value="2">Санкт-Петербург</option>
+                                <option value="3">Киев</option>
+                                <option value="4">Улан-Удэ</option>
+                            </select>
+                        </div>
+    
+                        <div class="main__search-input">
+                            <label for="seek-7" class="main__search-input-label">Текст объявления:</label>
+                            <textarea name="#" id="#" cols="1" rows="auto" class="main__search-input-txt"></textarea>
+                        </div>
+                    </div>
+    
+                    <div class="main__submit">
+                         <button type="submit" class="main__submit-btn">Подать объявление</button>
+                    </div>
+                </form>
+
+                <div class="main__ads">
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper" id="user-foto">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                    <div class="main__ads-wrapper">
+                        <div class="main__ads-img-wrapper">
+                            <img src="img/default-avatar.jpg" alt="avatar" class="main__ads-img" id="user-foto">
+                        </div>
+                        <div class="main__ads-name" id="user-name">Имя именное, 31 год</div>
+                        <div class="main__ads-sity" id="user-sity">г. Москва, Россия</div>
+                        <p class="main__ads-text" id="user-ads">Текс объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления, текст объявления</p>
+                        <div class="main__ads-messeage-time" id="messeage-time">опубликовано 2022-03-15 в 11:47:13</div>
+                        <div class="main__ads-status" id="user-status">
+                            <div class="main__ads-status-on">В сети</div>
+                            <div class="main__ads-status-off">Не в сети</div>
+                        </div>
+                        <div class="main__ads-icon-wrapper" id="user-messeage">
+                            <img src="icons/Page-2-Copy.svg" alt="messeage" class="main__ads-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+
+                </div>
+            </div>
+        </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
