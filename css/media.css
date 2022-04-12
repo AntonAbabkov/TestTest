@@ -438,6 +438,11 @@
         .mess_rightCol-textWindow-textarea {
             height: 120px;
         }
+    .footer
+        .footer__links-wrapper {
+            width: 65%;
+            margin-top: 38px;
+        }
 }
 
 @media (max-width: 760px) {
@@ -1113,12 +1118,17 @@
         }
     .main 
         .main__search {
-            width: 80%;
+            width: 100%;
             height: 500px;
+        }
+    .main 
+        .main__search-select {
+            width: 250px;
         }
     .main 
         .main__search-input-txt {
             height: 100px;
+            width: 234px;
         }
     .main 
         .main__submit-btn {
@@ -1127,7 +1137,7 @@
         }
     .main 
         .main__ads {
-            margin-top: 80px;
+            margin-top: 60px;
         }
     .main 
         .main__ads-wrapper {
@@ -1414,5 +1424,25 @@
             width: 84px;
             height: 31px;
             font-size: 14px;
+        }
+    .footer
+        .footer__personalData {
+            font-size: 8px;
+            line-height: 8px;
+        }
+    .footer
+        .footer__info-policy {
+            font-size: 8px;
+            line-height: 8px;
+        }
+    .footer 
+        .footer__link-wrapper {
+            width: 27px;
+            height: 27px;
+        }
+    .footer 
+        .footer__links-wrapper {
+            width: 92%;
+            margin-top: 42px;
         }
 }
